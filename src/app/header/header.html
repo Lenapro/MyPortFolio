@@ -48,20 +48,20 @@
           @if (isMenuOpen) {
             <div role="menu" class="absolute md:hidden block end-0 top-14 z-auto w-40 divide-y divide-gray-200 overflow-hidden rounded border border-gray-300 bg-[#0B0C15] shadow-sm ">
               <div>
-                <a href="/" class="block px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white" role="menuitem">
+                <a href="/" class="block px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white" role="menuitem" routerLink="/">
                   Accueil
                 </a>
 
-              <a href="/competences" class="block px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white" role="menuitem">
+              <a href="/competences" class="block px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white" role="menuitem" routerLink="/competences">
                 Mes Compétences
               </a>
 
-              <a href="/projets" class="block px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white" role="menuitem">
+              <a href="/projets" class="block px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-gray-900 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white" role="menuitem" routerLink="/projets">
                 Mes Projets
               </a>
             </div>
             <button>
-              <a href="/contact" class="block w-full px-3 py-2 text-sm font-medium text-[#6B46E5] transition-colors hover:bg-gray-50 hover:text-gray-900 " role="menuitem">
+              <a href="/contact" class="block w-full px-3 py-2 text-sm font-medium text-[#6B46E5] transition-colors hover:bg-gray-50 hover:text-gray-900 " role="menuitem" routerLink="/contact">
                 Me Contacter
               </a>
             </button>
